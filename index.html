@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ONG LifeGood</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <header>
+  <img class="imglogo" src="img/logo.png" alt="Logo ONG LifeGood">
+  <h1>ONG LifeGood</h1>
+
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+   ☰
+  </button>
+
+  <nav id="menu">
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li class="submenu">
+        <a href="#Projetos">Projetos ▾</a>
+        <ul class="submenu-list">
+          <li><a href="projetos.html">Voluntariado</a></li>
+          <li><a href="doações.html">Doações</a></li>
+        </ul>
+      </li>
+
+      <li><a href="Cadastro.html">Cadastro</a></li>
+    </ul>
+  </nav>
+</header>
+
+    <main class="container">
+        <section class="col-6" id="Sobre">
+            <h2><strong>Quem somos?</strong></h2>
+            <p>A ONG LifeGood teve seu início há 5 anos e, desde então, atua promovendo projetos sociais, educativos e beneficentes.</p>
+        </section>
+
+        <section class="col-6" id="Missão">
+            <h2><strong>Nossa Missão</strong></h2>
+            <p>Transformar visões, tirar jovens de correntes que os prendem e dar a eles um ponto de vista próprio e individual sobre o mundo.</p>
+        </section>
+
+        <section class="col-4" id="Visão">
+            <h2><strong>Nossa Visão</strong></h2>
+            <p>Ser uma ONG reconhecida nacionalmente por sua contribuição social e educacional, impactando positivamente no desenvolvimento interpessoal.</p>
+        </section>
+
+        <section class="col-4" id="Valores">
+            <h2><strong>Nossos Valores</strong></h2>
+            <p>Empatia, Lealdade, Valores e Compromisso.</p>
+        </section>
+        <section class="cards-container">
+      <h2>Nossos Projetos</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>📚 Voluntariado</h3>
+          <p>Participe dos projetos culturais da ONG.</p>
+          <a href="projetos.html" class="btn-secundario">Saiba Mais</a>
+        </div>
+
+        <div class="card">
+          <h3>❤️ Doações</h3>
+          <p>Ajude a manter nossos projetos sociais.</p>
+          <a href= "doações.html" class="btn-secundario">Doar Agora</a>
+        </div>
+      </div>
+    </section>
     
+      </main>
+
+
+
+    <footer>
+        <p>&copy; 2025 ONG LifeGood - Todos os direitos reservados.</p>
+        <p>Contato: <a href="mailto:contato@onglifegood.org">contato@onglifegood.org</a></p>
+    </footer>
 </body>
 </html>
