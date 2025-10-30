@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - ONG LifeGood</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="pagina-voluntariado">
+<header>
+  <img class="imglogo" src="img/logo.png" alt="Logo ONG LifeGood">
+  <h1 class=h1h2vonl >ONG LifeGood</h1>
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+
+  </button>
+
+  <nav id="menu">
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li class="submenu">
+        <a href="Projetos.html">Projetos ▾</a>
+        <ul class="submenu-list">
+          <li><a href="doações.html">Doações</a></li>
+        </ul>
+       </li>
+      <li><a href="Cadastro.html">Cadastro</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+    <section class="h1h2vonl" id="Voluntariado">
+        <h2>Voluntariado</h2>
+        <p>Fazer parte da ONG LifeGood como voluntário é contribuir diretamente para transformar vidas. Nossos voluntários atuam em projetos sociais, oficinas educativas, eventos beneficentes e campanhas de arrecadação.</p>
+        <p><strong>Seja um agente de mudança!</strong> Ao dedicar seu tempo e talento, você ajuda a criar oportunidades e um futuro melhor para muitos jovens.</p>
+     </section>
+
+      <section class="cards">
+      <div class="card">
+        <img src="img/livros.jpg" alt="Doe Para ONGLIFEGOOD" class="livros">
+        <h3>Projeto Esperança</h3>
+        <p>Ajuda a crianças em situação de vulnerabilidade.</p>
+        <button class="btn">Saiba Mais</button>
+      </div>
+
+  <div class="card">
+        <img src="img/educação.jpg" alt="Doe Para ONGLIFEGOOD" class="livros" >
+        <h3>Educa Jovem</h3>
+        <p>Capacitação gratuita para jovens de comunidades.</p>
+        <button class="btn">Saiba Mais</button>
+  </div>
+</section>
+    <section class="h1h2vonl" id="CadastroVoluntariado">
+        <h2>Se cadastre para ser um voluntário</h2>
+        <p> Preencha o Formulario abaixo para participar como voluntário em nossos projetos</p>
+     <form id="voluntarioForm" class="volunfield" action="#" method="post">
+        <fieldset>
+          <legend>Informações Pessoais</legend>
+
+          <label for="nome">Nome Completo</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+
+          <label for="telefone">Telefone</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+
+          <label for="area">Área de Interesse</label>
+          <select id="area" name="area" required>
+            <option value="">Selecione...</option>
+            <option value="educacao">Educação</option>
+            <option value="meio-ambiente">Meio Ambiente</option>
+            <option value="Conversação">Conversação</option>
+            <option value="assistencia">Assistência Social</option>
+          </select>
+
+          <label for="disponibilidade">Disponibilidade</label>
+          <input type="text" id="disponibilidade" name="disponibilidade" placeholder="Ex: finais de semana, tardes, etc." required>
+        </fieldset>
+
+        <button type="submit" class="btn-principal">Enviar Cadastro</button>
+      </form>
+
+      <div id="alertaVoluntario" class="alerta">
+        <p>Cadastro de voluntário enviado com sucesso!</p>
+        <button id="fecharAlertaVoluntario">Fechar</button>
+      </div>  
+    </section>
+    </main>
+
+    <footer>
+    <p>&copy; 2025 ONG LifeGood - Todos os direitos reservados.</p>
+    <p>Contato: <a href="mailto:contato@onglifegood.org">contato@onglifegood.org</a></p>
+  </footer>
+
+
+
+</body>
